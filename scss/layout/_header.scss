@@ -5,7 +5,24 @@
     justify-content: space-between;
     align-items: center;
 }
-.site-logo {
+.site-logo-img {
     height: 64px;
     width: 64px;
+}
+.header-btn{
+    margin-top: 0.2rem;
+}
+
+
+// RESPONSIVE
+
+@media screen and (max-width:520px) {
+    .site-logo-img{
+        height: 48px;
+        width: 48px;
+    }
+    .header-btn{
+        font-size: 1.4rem;
+        padding: 8px 2.7rem;
+    }
 }
