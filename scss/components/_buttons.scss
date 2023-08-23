@@ -1,0 +1,63 @@
+.black-btn{
+    color: $white-color;
+    font-family: $main-ff;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.75;
+    border-radius: 28px;
+    background-color: $black-color;
+    padding: 14px 45px;
+}
+.black-btn:hover{
+    background-color: $blue-color;
+    transition: 0.3s;
+}   
+
+.peach-btn{
+    color: $white-color;
+    font-family: $main-ff;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.75;
+    border-radius: 28px;
+    background-color: $peach-color;
+    padding: 14px 45px;
+}
+.peach-btn:hover{
+    background-color: $summer-yellow;
+    transition: 0.3s;
+}
+
+.right-btn{
+    color: $white-color;
+    font-family: $main-ff;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.75;
+    border-radius: 28px;
+    background-color: $black-color;
+    padding: 14px 45px;
+}
+.right-btn:hover{
+    background-color: $blue-color;
+    transition: 0.3s;
+}
+
+.left-btn{
+    color: $white-color;
+    font-family: $main-ff;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.75;
+    border-radius: 28px;
+    background-color: $black-color;
+    padding: 14px 45px;
+}
+.left-btn:hover{
+    background-color: $blue-color;
+    transition: 0.3s;
+}
