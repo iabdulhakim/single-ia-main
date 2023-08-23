@@ -32,14 +32,12 @@
 
 .right-btn{
     color: $white-color;
-    font-family: $main-ff;
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.75;
-    border-radius: 28px;
+    border-radius: 50%;
     background-color: $black-color;
-    padding: 14px 45px;
+    padding: 16px 22px;
 }
 .right-btn:hover{
     background-color: $blue-color;
@@ -48,14 +46,12 @@
 
 .left-btn{
     color: $white-color;
-    font-family: $main-ff;
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.75;
-    border-radius: 28px;
+    border-radius: 50%;
     background-color: $black-color;
-    padding: 14px 45px;
+    padding: 16px 22px;
 }
 .left-btn:hover{
     background-color: $blue-color;
