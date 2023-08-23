@@ -122,6 +122,36 @@ main{
     margin: 5.6rem;
 }
 
+
+.discussion-container {
+    background-color: $black-color;
+    border-radius: 10px;
+    padding: 8rem 9.5rem 8rem 6.5rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+}
+.discussion-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 540px;
+}
+.discussion__title {
+    color: $white-color;
+    margin-bottom: 2.5rem;
+}
+.discussion__desc {
+    color: $white-color;
+}
+.discussion__btn {
+    align-self: center;
+}
+
+
+
+
+
+
 // RESPONSIVE
 
 
@@ -141,6 +171,25 @@ main{
         gap: 2rem;
         margin: 5.6rem;
     }
+
+    .discussion-container {
+        max-width: 1010px;
+    }
+}
+
+@media screen and (max-width:1120px) {
+    .discussion-container {
+        max-width: 910px;
+        padding: 5.6rem 7.5rem 6.4rem 7.5rem;
+    }
+    .discussion__btn{
+        font-size: 1.5rem;
+        padding: 1rem 2.7rem;
+    }
+    .discussion-content{
+        margin-right: 2rem;
+    }
+    
 }
 
 
@@ -170,6 +219,29 @@ main{
 }
 
 
+@media screen and (max-width:1020px) {
+    .discussion-container {
+        max-width: 810px;
+        padding: 5rem 7rem 6rem 7rem;
+    }
+    .discussion__btn{
+        font-size: 1.4rem;
+        padding: 1rem 2.6rem;
+    }
+    .discussion-content{
+        margin-right: 2rem;
+    }
+    .discussion__title{
+        font-size: 3.6rem;
+    }
+    .discussion__desc{
+        font-size: 1.5rem;
+        max-width: 450px;
+    }
+    
+}
+
+
 @media screen and (max-width:920px) {
     .hero__img{
         width: 364px;
@@ -188,6 +260,25 @@ main{
     }
     .work__img2{
         display: none;
+    }
+
+    .discussion-container {
+        flex-direction: column;
+        align-items: center;
+        max-width: 710px;
+    }
+    .discussion__btn{
+        margin-top: 2.6rem;
+    }
+    .discussion-content{
+        margin-right: 0;
+        text-align: center;
+    }
+    .discussion__title{
+        font-size: 3.6rem;
+    }
+    .discussion__desc{
+        max-width: 560px;
     }
 }
 
@@ -209,6 +300,9 @@ main{
     .motion-graphics{
         width: 354px;
         height: 158px;
+    }
+    .discussion-container{
+        max-width: 610px;
     }
 }
 
@@ -240,5 +334,40 @@ main{
         align-self: center;
         font-size: 1.4rem;
         padding: 8px 2.7rem;
+    }
+}
+
+
+@media screen and (max-width:650px) {
+    .discussion-container{
+        max-width: 520px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .discussion-container{
+        max-width: 420px;
+        padding: 4.5rem 2.4rem 4.8rem 2.4rem;
+    }
+    .discussion__title{
+        font-size: 3rem;
+    }
+    .discussion__desc{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .discussion-container{
+        max-width: 330px;
+    }
+    .discussion__title{
+        font-size: 2.6rem;
+    }
+    .discussion__desc{
+        font-size: 1.2rem;
+    }
+    .discussion__btn{
+        font-size: 1.3rem;
     }
 }
